@@ -17,7 +17,21 @@ This is a React application that allows users to search for scientific metadata 
 	- Reference count  
 	- Type  
 	- ISSN  
-  
+## Environment Variables
+
+In the project, we use environment variables to manage sensitive data and configuration settings. Here's a list of the environment variables used in the App:
+
+- `REACT_APP_CROSSREF_URL`: This is the base URL of the API that the application communicates with for fetching data.
+
+To set these environment variables, you can create a `.env` file in the root directory of the project and add the environment variables in the following format: `REACT_APP_API_URL=<Your API URL>`
+
+Please replace `<Your API URL>` with the actual URL of the API as `REACT_APP_CROSSREF_URL = https://api.crossref.org`
+
+**Note:** The `.env` file is included in the `.gitignore` file by default, which means it won't be tracked by Git. This is a security measure to prevent sensitive data from being exposed in the version control system.
+
+After setting the environment variables, you can access them in your application code using `process.env`, like so:
+`process.env.REACT_APP_API_URL`;
+   
 
 ### Installation
 
