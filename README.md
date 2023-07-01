@@ -26,25 +26,25 @@ To install the application, follow these steps:
   
 1. Clone the repository:
 ```
-    git clone  https://github.com/yourusername/scientific_citation_app.git
+git clone  https://github.com/yourusername/scientific_citation_app.git
 ```
   
 2. Navigate to the project directory:
 ```
-    cd  scientific_citation_app
+cd  scientific_citation_app
 ```
   
 3. Install the dependencies:
 ```
-	npm install
-  ```
+npm install
+```
 
 ### Usage
 
   
 To start the application, run:
 ```
-	npm start
+npm start
 ```
   
 The application will start and can be accessed at  http://localhost:3000.  
@@ -55,7 +55,7 @@ The application will start and can be accessed at  http://localhost:3000.
   
 The application uses Jest and React Testing Library for testing. To run the tests, use:
 ```
-	npm test
+npm test
 ```
   
 
