@@ -40,7 +40,7 @@ To install the application, follow these steps:
   
 1. Clone the repository:
 ```
-git clone  https://github.com/yourusername/scientific_citation_app.git
+git clone  https://github.com/bulimu/scientific_citation_app.git
 ```
   
 2. Navigate to the project directory:
